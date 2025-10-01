@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>SHIP THE FUTURE</title>
+<meta name="description" content="AI-assisted, human-reviewed workflows. Reclaim time. Ship value.">
+<style>
+  :root {
+    --bg:#0E1E2A; --fg:#F4F7FA; --acc:#21C26F; --mut:#A6B3BD;
+  }
+  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--fg);
+    font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto,Inter,Arial}
+  .wrap{max-width:960px;margin:0 auto;padding:24px}
+  header{padding:32px 0 8px}
+  h1{font-size:2rem;margin:0 0 8px}
+  .tag{color:var(--acc);font-weight:600;margin-bottom:16px}
+  .grid{display:grid;gap:16px}
+  @media(min-width:800px){.grid{grid-template-columns:1.2fr .8fr}}
+  .card{background:#112536;border:1px solid #183246;border-radius:12px;padding:16px}
+  a.btn{display:inline-block;background:var(--acc);color:#062014;padding:10px 16px;border-radius:8px;
+    text-decoration:none;font-weight:700}
+  a.btn.secondary{background:transparent;color:var(--fg);border:1px solid var(--mut)}
+  ul{padding-left:20px}
+  footer{color:var(--mut);font-size:.9rem;margin:32px 0 16px}
+  .disclosure{font-size:.9rem;color:var(--mut);margin-top:8px}
+</style>
+</head>
+<body>
+  <main class="wrap" aria-label="Conference microsite for ARIN 340 Final Project">
+    <header>
+      <h1>Sanguine Lithium</h1>
+      <div class="tag">AI/ML Developer — AI-assisted, human-reviewed</div>
+      <p style="max-width:70ch">
+        I use generative AI to automate the boring parts—so I can spend more time on creative, high-impact work.
+        Every AI-assisted step is labeled; every decision is human-reviewed.
+      </p>
+      <p>
+        <a class="btn" href="#repo">View Repo</a>
+        <a class="btn secondary" href="#contact" style="margin-left:8px">Connect</a>
+      </p>
+      <div class="disclosure">Representative imagery; synthetic data only.</div>
+    </header>
+
+    <section class="grid" aria-label="Value and proof">
+      <div class="card" role="region" aria-label="How I work">
+        <h2>How I Work</h2>
+        <ul>
+          <li><strong>Automate scaffolds</strong>; keep humans on judgment calls</li>
+          <li><strong>Label AI involvement</strong> in code & docs</li>
+          <li><strong>Test before you trust</strong> (unit tests & checks)</li>
+          <li><strong>Innovation-informed</strong> workflows that build momentum</li>
+        </ul>
+      </div>
+      <div class="card" role="region" aria-label="Proof points">
+        <h2>Proof</h2>
+        <ul>
+          <li>Repo template with synthetic data & tests</li>
+          <li>2-min demo notebook</li>
+          <li>Clear ethics docs & review checklist</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="repo" class="card" style="margin-top:16px" role="region" aria-label="Repository links">
+      <h2>Repository & Demo</h2>
+      <p>Run the synthetic demo locally, review tests, and see how I label AI-assisted steps.</p>
+      <p><a class="btn" href="https://github.com/SanguineLithium/fictional-train">Open GitHub Repo</a></p>
+      <p><a class="btn secondary" href="https://github.com/SanguineLithium/fictional-train/tree/main/notebooks">Open 2-min Demo Notebook</a></p>
+    </section>
+
+    <section class="card" style="margin-top:16px" role="region" aria-label="Ethics and accessibility">
+      <h2>Ethics & Accessibility</h2>
+      <ul>
+        <li>AI-assisted content is <em>always</em> labeled</li>
+        <li>Synthetic/redacted data only</li>
+        <li>Accessible color contrast & clear language</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card" style="margin-top:16px" role="region" aria-label="Contact">
+      <h2>Connect</h2>
+      <p>Email: <a href="mailto:neil@example.com">neil@example.com</a> · LinkedIn: <a href="https://www.linkedin.com/in/YOUR-LINKEDIN">/in/YOUR-LINKEDIN</a></p>
+      <p>Ask for the live prompt pack or a quick pair-session.</p>
+    </section>
+
+    <footer aria-label="Footer">
+      © 2025 Sanguine Lithium — AI-assisted, human-reviewed.
+    </footer>
+  </main>
+</body>
+</html>
