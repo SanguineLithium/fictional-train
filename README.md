@@ -24,3 +24,7 @@ This template shows how I use GenAI to accelerate the boring parts while keeping
 2. Label AI involvement.
 3. Test before you trust.
 4. Prefer synthetic/redacted data for sharing.
+
+## CODESPACE
+[![Open in GitHub Codespaces](https://github.com/codespaces/badges/raw/main/static/images/open-in-codespaces.svg)](https://codespaces.new/SanguineLithium/fictional-train?quickstart=1)
+
